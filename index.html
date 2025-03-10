@@ -91,51 +91,70 @@
 
     <div class="container2">
         <div class="left-section">
-            <!-- <div class="profile-images">
-                <img src="profile1.jpg" alt="Profile">
-                <img src="profile2.jpg" alt="Profile">
-                <img src="profile3.jpg" alt="Profile">
-                <img src="profile4.jpg" alt="Profile">
-            </div> -->
             <h1>We Can't Wait To Meet You!</h1>
             <p>Ready to check out Access Church in person? Awesome! We can’t wait to meet you and get to know you.</p>
             <p>Simply fill out this form and one of our team members will follow up with you quickly. We’ll make sure you receive the VIP treatment when you arrive!</p>
         </div>
+    
         <div class="right-section">
             <form>
-                <label for="name">Name *</label>
-                <input type="text" id="name" placeholder="First">
-                <input type="text" id="lastname" placeholder="Last">
-                
-                <label for="email">Email *</label>
-                <input type="email" id="email">
-                
-                <label for="phone">Phone *</label>
-                <input type="tel" id="phone">
-                
-                <label for="location">Which location will you be visiting?</label>
-                <select id="location">
-                    <option>Choose your location</option>
-                </select>
-                
-                <label>Is this your first time visiting Access? *</label>
-                <input type="radio" name="firstTime" value="yes"> Yes
-                <input type="radio" name="firstTime" value="no"> No
-                
-                <label>Are you visiting from out of town? *</label>
-                <input type="radio" name="outOfTown" value="yes"> Yes
-                <input type="radio" name="outOfTown" value="no"> No
-                
-                <label for="children">How many children will you be bringing?</label>
-                <select id="children">
-                    <option>None</option><br>
-                </select>
-                
+                <div class="form-group two-column">
+                    <div class="input-box">
+                        <label for="name">First Name *</label>
+                        <input type="text" id="name" placeholder="First">
+                    </div>
+                    <div class="input-box">
+                        <label for="lastname">Last Name *</label>
+                        <input type="text" id="lastname" placeholder="Last">
+                    </div>
+                </div>
+    
+                <div class="form-group two-column">
+                    <div class="input-box">
+                        <label for="email">Email *</label>
+                        <input type="email" id="email" placeholder="Your Email">
+                    </div>
+                    <div class="input-box">
+                        <label for="phone">Phone *</label>
+                        <input type="tel" id="phone" placeholder="Your Phone">
+                    </div>
+                </div>
+    
+                <div class="form-group">
+                    <label for="location">Which location will you be visiting?</label>
+                    <select id="location">
+                        <option>Choose your location</option>
+                    </select>
+                </div>
+    
+                <div class="form-group">
+                    <label>Is this your first time visiting Access? *</label>
+                    <div class="radio-group">
+                        <input type="radio" name="firstTime" value="yes"> Yes
+                        <input type="radio" name="firstTime" value="no"> No
+                    </div>
+                </div>
+    
+                <div class="form-group">
+                    <label>Are you visiting from out of town? *</label>
+                    <div class="radio-group">
+                        <input type="radio" name="outOfTown" value="yes"> Yes
+                        <input type="radio" name="outOfTown" value="no"> No
+                    </div>
+                </div>
+    
+                <div class="form-group">
+                    <label for="children">How many children will you be bringing?</label>
+                    <select id="children">
+                        <option>None</option>
+                    </select>
+                </div>
+    
                 <button type="submit">Send</button>
             </form>
         </div>
     </div>
-
+    
 
 
     
